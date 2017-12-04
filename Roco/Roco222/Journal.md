@@ -119,3 +119,25 @@ After this version of the code we upgraded the code to !!!!!!!!!!!!!!!!!!!!!!!!!
 Finally we changed the code completely to utilise the map feature that ardunio as inbuilt. This allowed us to scale the input values in the analog pin to the desired degrees of motion on the servo, which could then be directly inputted into the motor.
 
 It was found during this version of the code that two of the analog pins (A0,A1) do not function correctly, so the code was adjusted to use the other analog pins. This should not have too much of an impact as we are currently planning to only use 4 of the analog pins. 
+
+Once the testing was done we began work on the design of the arm for the project. This started off with paper designs, as seen below. 
+
+!Image of paper designs
+
+After the measurements for the designs were decided, we cut them out using the provided cardboard to ensure that the motors actually fit, and to ensure that none of the pieces were going to be too large or flimsy to use. 
+
+!Image of the cardboard cutouts
+
+Finally once we were happy with the designs and measurements of the pieces, we began to design them in solidworks. Each piece was designed individually, with some adjustments made to compensate for the tolerances of the 3D printer. Some of the larger pieces had to be split up into smaller sections due to restrictions with the printers, such as not being able to print lips onto pieces without some kind of support on them. We decided to just seperate the pieces instead of adding supports, as there would be a lesser chance of damaging the final product when removing the supports. 
+
+!Images of solidworks designs
+
+Once the solidworks designs were complete, they were converted into STL format so that the 3D printer could read the print the files. 
+
+!Printed off pieces
+
+Printing the final pieces only took a couple days, and all of the pieces came out exactly as planned. The motor supports on the base were measured slightly wrong originally, as we forgot to adjust the holes they go in aswell. This was resolved by filing down the pieces very slightly, so that they snugly fit inside of the holes in the base. None of the other pieces required much adjustment, aside from removing stray pieces of plastic attached to them. 
+
+Once all of the pieces were checked to ensure they fit, the final assembly process began. This started with gluing the base pieces together. After this ---------------------------------------tbc
+
+
