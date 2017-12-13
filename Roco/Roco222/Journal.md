@@ -167,5 +167,23 @@ Finally once this was done the main arm part and the lower base were assembled t
 
 We released that the wires from the stepper motor caused the arm to tilt slightly, but due to time restrictions we were unable to alter our design. In the future we would have cut a gap into the side of the base to allow the wires to come out easily. As well as this we would have also lowered the height of the base, as the stepper motor needed to be supported so that it could actually reach the base of the arm to spin it.
 
-!Video of arm working 
+Once the arm was assembled we began to design it onto rviz using urdf files. To do this we had to 'describe' each of the components of our arm, using measurements, and giving origin points for the joints to move on. This took some time to do as we did not realise that the 'origin' in the link section reffered to the origin point of the object itself, which was where the joints would be connected to. We originally assumed that this origin was where the part would be located on the rviz map in respect to the 0 0 0 origin point in the centre. 
 
+![parts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Screenshot%20from%202017-12-13%2020-41-05.png)
+![parts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Screenshot%20from%202017-12-13%2020-41-23.png)
+![parts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Screenshot%20from%202017-12-13%2020-41-42.png)
+![parts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Screenshot%20from%202017-12-13%2020-41-52.png)
+
+After the components were all described, we had to create joints between them starting from the base part. All of the components need to be linked up in some way to ensure that there is only one 'origin' piece that they are all connected to, otherwise an error will be created when you try to load the file.
+
+![joint](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Joint1.png)
+![joint](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Joint2.png)
+![joint](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/joint3.png)
+
+Once all of the parts and the joints had been described in the urdf file, they could be loaded onto rviz's 'robot description' feature, along side the robot_state_publisher and joint_state_publishers to allow the model and joints to be mapped correctly, and to also give slider bars so that the joints could be controlled. 
+
+![rviz](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/rviz.png)
+
+After some adjustments the model looked and behaved how we hoped it would, with the correct three degrees of freedom allowing the arm to rotate, and allowing the two sections of the arm to bend correctly. 
+
+Once this model was created in rviz we moved onto using the joint_state_publisher along side the arduino program to move the real arm.
