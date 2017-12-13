@@ -27,7 +27,7 @@ It can be easily accessed and interacted with using the Linux command console, u
 #Practical session 2
 In this practical session we are beginning to create out basic motor. We are using a cork as the foundation of the motor, with copper wiring going around it for the coils. There is also a nail in either end to support the motor, and ensure it stays in its brackets. The brackets themselves are made out of large paperclips, as well as the brackets holding the magnets. I also used copper tape on the end of one side of the cork as a commutator, with a frayed multi core wire working as the brush to supply voltage. In total we had 116 coils around the motor, with 2 cores. 
 
-![Given parts](https://github.com/Alix955/Lab-work/blob/master/Roco222/Roco/Images/IMG_20171005_113211.jpg)
+![Given parts](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171005_113211.jpg)
 
 ![Stand assembled](https://github.com/Alix955/Lab-work/blob/master/Roco222/Images/IMG_20171005_120906.jpg)
 
