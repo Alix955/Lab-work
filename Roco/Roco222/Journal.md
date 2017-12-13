@@ -29,18 +29,18 @@ In this practical session we are beginning to create out basic motor. We are usi
 
 ![Given parts](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171005_113211.jpg)
 
-![Stand assembled](https://github.com/Alix955/Lab-work/blob/master/Roco222/Images/IMG_20171005_120906.jpg)
+![Stand assembled](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171005_120906.jpg)
 
-![Coils around motor](https://github.com/Alix955/Lab-work/blob/master/Roco222/Images/IMG_20171005_122520.jpg)
+![Coils around motor](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171005_122520.jpg)
 
 
 Overall the motor did not work very well, this was largely due to there only being two coils. THis meant that there were large gaps between the coils, resulting in the motor struggling to keep its momentum going. As well as this the motor could not really start by itself, it needed something external, such as me starting the turning motion by hand. 
 
-![Assembled motor](https://github.com/Alix955/Lab-work/blob/master/Roco222/Images/IMG_20171011_134358.jpg)
+![Assembled motor](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171011_134358.jpg)
 
 To improve my motor i am planning to completely redesign it using Solidworks. The designs for each piece can be seen below. I am going to have a bracket on either side of the motor to hold it up, as well as an upside down U shape bracket for the magnets. The magnets will be split into four to have two pulling and two pushing, instead of just having one pulling and one pushing.
 
-![Solidworks design ready to be cut](https://github.com/Alix955/Lab-work/blob/master/Roco222/Images/IMG_20171019_120219.jpg)
+![Solidworks design ready to be cut](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171019_120219.jpg)
 
 !
 !
