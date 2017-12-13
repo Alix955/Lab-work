@@ -1,3 +1,6 @@
+##Note
+For all of these practical sessions i worked together with Samuel Page.
+
 # Practical Session 1
 
 ##Linux commands
@@ -151,4 +154,18 @@ The next piece we assembled was the actual arm itself, which would be attached t
 
 ![Arm pieces attached together](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171212_182522.jpg)
 ![Elastic bands on arm](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171212_182529.jpg)
+
+We had some difficulty attaching the lower half of the arm to the base, due to the circular shape making the elastic bands roll off the sides. In order to counter this we cut some slight grooves into the circular part for the bands to be wrapped tightly around.
+
+!Image of bands holding onto the lower half of arm
+
+Finally once this was done the main arm part and the lower base were assembled together to create a full arm. The stepper motor was also placed into the base of the arm. 
+
+!Image of full arm
+
+!Image of stepper motor inside
+
+We released that the wires from the stepper motor caused the arm to tilt slightly, but due to time restrictions we were unable to alter our design. In the future we would have cut a gap into the side of the base to allow the wires to come out easily. As well as this we would have also lowered the height of the base, as the stepper motor needed to be supported so that it could actually reach the base of the arm to spin it.
+
+!Video of arm working 
 
