@@ -42,15 +42,13 @@ To improve my motor i am planning to completely redesign it using Solidworks. Th
 
 ![Solidworks design ready to be cut](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171019_120219.jpg)
 
-!
-!
-!
-!
-!
-!
-!
+![Cut out motor pieces] (https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171023_150711.jpg)
 
 As well as this i plan on increasing the amount of cores on the motor itself from 2 cores up to 8. The motor itself will be solid wood as well, with indents cut into it to ensure the coils stay in place. This was a slight issue on the old design as the coils were very spread, with some almost coming off the sides of the motor. 
+
+![First pieces assembled] (https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171026_114842.jpg)
+![Wrapping the coils around the core] (https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171026_122245.jpg)
+![All of the coils wrapped] (https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171026_130502.jpg)
 
 !Images of built motor
 
@@ -69,33 +67,31 @@ In this practical we refined our solidworks designs, and created an area on the 
 
 
 
-
-
-
 #Practical 5
 In this practical we learned the basics of controlling stepper motors.
 
 We had to wire up the stepper motor to the ardunio board using a motor shield, which had special pins for the motor wires to go into and be screwed down. It was important that the wires were set up the correct way around, otherwise the motor would turn the opposite way expected, or not function at all. As well as this the yellow wires of the stepper motor were left loose as we were using the motor as a bipolar motor instead of a unipolar motor. 
 
-!Diagram from lab about how the motor was set up
-!Image of the stepper motor set up
+![Arduino board and motor shield] (https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_193953.jpg)
+
+![Stepper motor setup] (https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Screenshot%20from%202017-12-13%2019-29-20.png)
+
+![Stepper motor plugged into the arduino board] (https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171102_112210.jpg)
 
 
 After this we had to write arduino code to control the motors at half step, double step, full step, and micro stepping. 
 
-!image of ardunio board
-
 The full stepping mode means that the stepper motor turns a full 90 degrees each time it turns, swapping between the two sets of N/S pole magnets. 
 
-!image of full
+![Full step code] (https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Full_step.JPG)
 
 The double stepping mode has the same total steps as the full stepping mode, with the steps being between two of the magnets at a time. This method is used to provide the most torque from the motor, but it does not allow for very precise movements, similarly to the full step. 
 
-!image of double
+![Double step code] (https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Double_Step.JPG)
 
 The half stepping mode is a combination of the full stepping and double stepping modes. It has a total of eight steps, with it stopping at each pole, as well as in between poles. This provides a lower torque, but allows for double the angular control of the motor. 
 
-!image of half
+![Half step code] (https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Half-Step.JPG)
 
 The microstepping mode allows for the most control of the motor possible, although with far less torque than the previous modes. The strength of the magnets are controlled using sine wave inputs, which allows the motor to move at roughly 1.8 degrees for each movement, allowing for a total of 200 steps per revolution. 
 
