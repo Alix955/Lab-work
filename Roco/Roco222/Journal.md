@@ -50,24 +50,21 @@ To improve my motor i am planning to completely redesign it using Solidworks. Th
 As well as this i plan on increasing the amount of cores on the motor itself from 2 cores up to 8. The motor itself will be solid wood as well, with indents cut into it to ensure the coils stay in place. This was a slight issue on the old design as the coils were very spread, with some almost coming off the sides of the motor. 
 
 ![First pieces assembled](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171026_114842.jpg)
+
 ![Wrapping the coils around the core](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171026_122245.jpg)
+
 ![All of the coils wrapped](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171026_130502.jpg)
 
-!Images of built motor
+![Built motor](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171215_094900.jpg)
 
+![Built motor](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171215_094903.jpg)
 
 #Practical 3
 In this practical we refined our solidworks designs, and created an area on the motor for the encoder. I designed and cut out the encoder piece along with the other sections of the motor as it took a couple weeks to get all of the pieces complete due to the laser cutter being used by other courses for their deadlines. 
 
 ![Encoder cut out](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171023_150711.jpg)
 
-#! Image of final motor + encoder
-
-#Practical 4
-
-
-
-
+Due to time restrictions we were unable to get our enconder functioning. This was primarily due to how long it took to cut out each of the pieces in the laser cutter. Due to this we moved onto the stepper motor control and coding, as this was going to be a important part of the final arm project, along with the servos. 
 
 
 #Practical 5
@@ -120,17 +117,25 @@ It was found during this version of the code that two of the analog pins (A0,A1)
 Once the testing was done we began work on the design of the arm for the project. This started off with paper designs, as seen below. 
 
 ![Paper designs of the arm](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171121_220211.jpg)
+
 ![Paper designs of the arm](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171121_220229.jpg)
+
 ![Paper designs of the arm](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171121_220233.jpg)
+
 ![Paper designs of the arm](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171121_220250.jpg)
 
 After the measurements for the designs were decided, we cut them out using the provided cardboard to ensure that the motors actually fit, and to ensure that none of the pieces were going to be too large or flimsy to use. 
 
 ![Cardboard cutouts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_222651.jpg)
+
 ![Cardboard cutouts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_222730.jpg)
+
 ![Cardboard cutouts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_222738.jpg)
+
 ![Cardboard cutouts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_222743.jpg)
+
 ![Cardboard cutouts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_222749.jpg)
+
 ![Cardboard cutouts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_222756.jpg)
 
 Most of the pieces fit well, and were good sizes compared to the servo motors. Only the base of the arm needed to be adjusted to be able to fit the stepper motor inside of it.
@@ -143,6 +148,7 @@ Once we were happy with the designs and measurements of the pieces, we began to 
 Once the solidworks designs were complete, they were converted into STL format so that the 3D printer could read the print the files. 
 
 ![Printed off pieces](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171130_122052.jpg)
+
 ![Printed off pieces](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171130_122112.jpg)
 
 Printing the final pieces only took a couple days, and all of the pieces came out exactly as planned. The motor supports on the base were measured slightly wrong originally, as we forgot to adjust the holes they go in aswell. This was resolved by filing down the pieces very slightly, so that they snugly fit inside of the holes in the base. None of the other pieces required much adjustment, aside from removing stray pieces of plastic attached to them. 
@@ -160,6 +166,7 @@ We used elastic bands to hold the servo in place on the base of the arm. The ser
 The next piece we assembled was the actual arm itself, which would be attached to the above piece later on. One of the servos was slotted into the gap on the lower arm, which was then attached to the upper half of the arm also using elastic bands. The elastic bands meant that it was very easy to dismantle and move the arm, whilst still giving plenty of support to hold the arm together. 
 
 ![Arm pieces attached together](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171212_182522.jpg)
+
 ![Elastic bands on arm](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171212_182529.jpg)
 
 We had some difficulty attaching the lower half of the arm to the base, due to the circular shape making the elastic bands roll off the sides. In order to counter this we cut some slight grooves into the circular part for the bands to be wrapped tightly around.
