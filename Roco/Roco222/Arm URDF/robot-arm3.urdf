@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+
+<robot name="roco_arm">
+
+
+ <material name="white">
+   <color rgba ="1 1 1 1"/>
+ </material>
+
+ <material name="blue">
+   <color rgba ="0 0 0.8 1"/>
+ </material>
+
+ <material name="yellow">
+   <color rgba ="1 1 0 1"/>
+ </material>
+
+ <material name="half_black">
+   <color rgba ="0 0 0 0.5"/>
+ </material>
+
+  <link name="base">
+    <visual>
+      <geometry>
+        <cylinder length="0.04" radius="0.028"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+
+   <link name="upper_base">
+    <visual>
+      <geometry>
+        <cylinder length = "0.003" radius ="0.028"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0.0215" />
+      <material name="white"/>
+    </visual>
+  </link>
+
+  <link name="lower_arm">
+    <visual>
+      <geometry>
+        <box size="0.142 0.003 0.02"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.071 0 0" />
+      <material name="white"/>
+    </visual>
+  </link>
+
+   <link name="upper_arm">
+    <visual>
+      <geometry>
+        <box size="0.15 0.003 0.02"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.065 0 0" />
+      <material name="blue"/>
+    </visual>
+  </link>
+
+   <link name="lower_arm_2">
+    <visual>
+      <geometry>
+        <cylinder length = "0.003" radius ="0.028"/>
+      </geometry>
+      <origin rpy="1.6 0 0" xyz="0 0 0" />
+      <material name="white"/>
+    </visual>
+  </link>
+
+   <link name="lower_arm_3">
+    <visual>
+      <geometry>
+        <cylinder length = "0.003" radius ="0.028"/>
+      </geometry>
+      <origin rpy="1.6 0 0" xyz="0 0 0" />
+      <material name="white"/>
+    </visual>
+  </link>
+
+   <link name="arm_support">
+    <visual>
+      <geometry>
+        <box size="0.02 0.003 0.04"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 -0.01" />
+      <material name="blue"/>
+    </visual>
+  </link>
+
+   <link name="arm_support2">
+    <visual>
+      <geometry>
+        <cylinder length = "0.003" radius ="0.01"/>
+      </geometry>
+      <origin rpy="1.6 0 0" xyz="0 0 0" />
+      <material name="blue"/>
+    </visual>
+  </link>
+
+   <link name="upper_extension">
+    <visual>
+      <geometry>
+        <cylinder length = "0.02" radius ="0.028"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="blue"/>
+    </visual>
+  </link>
+
+   <link name="half_cylinder">
+    <visual>
+      <geometry>
+        <box size="0.056 0.056 0.04"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <material name="half_black"/>
+    </visual>
+  </link>
+
+  <link name="motor">
+    <visual>
+      <geometry>
+        <box size="0.01 0.015 0.025"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0.007 -0.02" />
+      <material name="yellow"/>
+    </visual>
+  </link>
+
+  <link name="motor2">
+    <visual>
+      <geometry>
+        <box size="0.025 0.015 0.01"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.012 -0.01 0" />
+      <material name="yellow"/>
+    </visual>
+  </link>
+
+
+
+
+  <joint name="arm_attachment_1" type ="fixed">
+    <parent link="lower_arm"/>
+    <child link="lower_arm_2"/>
+    <origin xyz="0 0 0" />
+  </joint>
+
+ <joint name="arm_attachment_2" type ="fixed">
+    <parent link="lower_arm"/>
+    <child link="lower_arm_3"/>
+    <origin xyz="-0.142 0 0" />
+  </joint>
+
+  <joint name="Spin_Arm" type="revolute">
+    <axis xyz="0 0 1" />
+    <limit effort="1000" lower="-3.14" upper="3.14" velocity="0.5" />
+    <parent link="base"/>
+    <child link="upper_base"/>
+    <origin xyz="0 0 0" />
+  </joint>
+
+  <joint name="Rotate_Lower" type="revolute">
+    <axis xyz="0 1 0" />
+    <limit effort="1000" lower="0.575" upper="3.14" velocity="0.5" />
+    <parent link="arm_support2"/>
+    <child link="lower_arm"/>
+    <origin xyz="0 -0.003 0" />
+  </joint>
+
+
+ <joint name="Rotate_Upper" type="revolute">
+    <axis xyz="0 1 0" rpy="0 0 0" />
+    <limit effort="1000" lower="-1.57" upper="1.57" velocity="0.5" />
+    <parent link="lower_arm"/>
+    <child link="upper_arm"/>
+    <origin xyz="-0.142 0.003 0" rpy="0 0 0" />
+  </joint>
+
+
+ <joint name="upper_base_to_support" type="fixed">
+    <parent link="upper_base"/>
+    <child link="arm_support"/>
+    <origin xyz="0 0.01 0.043" rpy="0 0 0" />
+  </joint>
+
+ <joint name="support1_to_support2" type="fixed">
+    <parent link="arm_support"/>
+    <child link="arm_support2"/>
+    <origin xyz="0 0 0.01" rpy="0 0 0" />
+  </joint>
+
+<joint name="lower_motor" type="fixed">
+    <parent link="arm_support2"/>
+    <child link="motor"/>
+    <origin xyz="0 0 0.0125" rpy="0 0 0" />
+  </joint>
+
+<joint name="upper_motor" type="fixed">
+    <parent link="lower_arm_3"/>
+    <child link="motor2"/>
+    <origin xyz="0.02 0 0" rpy="0 0 0" />
+  </joint>
+
+<joint name="attachment_upper" type="fixed">
+    <parent link="upper_arm"/>
+    <child link="upper_extension"/>
+    <origin xyz="-0.15 0 0" rpy="0 0 0" />
+  </joint>
+
+<joint name="hide_attachement" type="fixed">
+    <parent link="upper_extension"/>
+    <child link="half_cylinder"/>
+    <origin xyz="-0.028 0 0" rpy="0 0 0" />
+  </joint>
+
+</robot>
+

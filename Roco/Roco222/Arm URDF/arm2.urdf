@@ -1,0 +1,43 @@
+<robot
+  name="arm2">
+  <link
+    name="URDF">
+    <inertial>
+      <origin
+        xyz="-0.042685 6.50174755224298E-19 0.0098436"
+        rpy="0 0 0" />
+      <mass
+        value="0.023971" />
+      <inertia
+        ixx="2.05744163283792E-06"
+        ixy="-2.02366261371492E-22"
+        ixz="1.88530209047044E-07"
+        iyy="6.91141385387912E-05"
+        iyz="8.41636996951855E-23"
+        izz="6.95746943267806E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ROS/URDF.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://URDF/meshes/URDF.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
