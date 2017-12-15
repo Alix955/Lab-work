@@ -126,9 +126,16 @@ Once the testing was done we began work on the design of the arm for the project
 
 After the measurements for the designs were decided, we cut them out using the provided cardboard to ensure that the motors actually fit, and to ensure that none of the pieces were going to be too large or flimsy to use. 
 
-!Image of the cardboard cutouts
+![Cardboard cutouts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_222651.jpg)
+![Cardboard cutouts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_222730.jpg)
+![Cardboard cutouts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_222738.jpg)
+![Cardboard cutouts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_222743.jpg)
+![Cardboard cutouts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_222749.jpg)
+![Cardboard cutouts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171213_222756.jpg)
 
-Finally once we were happy with the designs and measurements of the pieces, we began to design them in solidworks. Each piece was designed individually, with some adjustments made to compensate for the tolerances of the 3D printer. Some of the larger pieces had to be split up into smaller sections due to restrictions with the printers, such as not being able to print lips onto pieces without some kind of support on them. We decided to just seperate the pieces instead of adding supports, as there would be a lesser chance of damaging the final product when removing the supports. 
+Most of the pieces fit well, and were good sizes compared to the servo motors. Only the base of the arm needed to be adjusted to be able to fit the stepper motor inside of it.
+
+Once we were happy with the designs and measurements of the pieces, we began to design them in solidworks. Each piece was designed individually, with some adjustments made to compensate for the tolerances of the 3D printer. Some of the larger pieces had to be split up into smaller sections due to restrictions with the printers, such as not being able to print lips onto pieces without some kind of support on them. We decided to just seperate the pieces instead of adding supports, as there would be a lesser chance of damaging the final product when removing the supports. 
 
 ![Arm support](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171123_123053.jpg)
 !more solidworks images
@@ -161,7 +168,9 @@ We had some difficulty attaching the lower half of the arm to the base, due to t
 
 Finally once this was done the main arm part and the lower base were assembled together to create a full arm. The stepper motor was also placed into the base of the arm. 
 
-!Image of full arm
+![Full arm](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171214_163000.jpg)
+
+In the above image the arm was also plugged into a breadbord (from another project)  so that 5V could be easily supplied to both of the servos. With this setup the arm was able to support its self and move around easily. 
 
 !Image of stepper motor inside
 
@@ -187,3 +196,16 @@ Once all of the parts and the joints had been described in the urdf file, they c
 After some adjustments the model looked and behaved how we hoped it would, with the correct three degrees of freedom allowing the arm to rotate, and allowing the two sections of the arm to bend correctly. 
 
 Once this model was created in rviz we moved onto using the joint_state_publisher along side the arduino program to move the real arm.
+
+![Arduino code](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Code.png)
+
+The top part of the code defines the servos that are going to be used in the arm. Since there are only going to be two and a stepper motor, there are only two defined. This version of the code currently does not run the stepper motor. 
+
+The void cb code checks the "joint_states" within the JointState program that it is subscribed to. It reads the second and third parts of the joint_states array to read the values being outputted by the joints_states gui, which is then converted from radiaans into degrees, and then written onto each of the servos. 
+
+The setup portion of the code is just initilising the nodes and subscriber functions, as well as attaching the two servo motors to their respective pins. 
+
+Once this code was programmed onto the arm, we were able to move the servos using the joint_states gui sliders. The movement of the servos wasnt as smooth as we were expecting, but the arms had plenty of torue to be able to lift and move themselves easily. 
+
+![Arm Moving](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Videos/Arm_Moving.gif)
+
