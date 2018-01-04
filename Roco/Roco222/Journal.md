@@ -5,12 +5,12 @@ For all of these practical sessions i worked together with Samuel Page.
 
 ## Linux commands
 cat - Retrieves files and displays information about them.
-mv - Move file
-rm - Remove file
-echo "." - Copy text into this folder
-cp - copy
-ls - list
-cd$ - current directory 
+mv - Move file.
+rm - Remove file.
+echo "." - Copy text into this folder.
+cp - copy.
+ls - list.
+cd$ - current directory.
 
 ## What is Markdown Syntax?
 
