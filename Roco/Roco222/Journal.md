@@ -72,7 +72,7 @@ As well as this i plan on increasing the amount of cores on the motor itself fro
 
 ![Built motor](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171215_094903.jpg)
 
-
+Overall our motor functioned well, although if we were to design it again we would swap out the wooden brackets for a more secure plastic one, as there was a lot of friction caused by the brackets holding the core of the motor. We would still keep the core as wood though, as it has a higher permiability than the plastic that is used in the 3D printers, allowing for our motor to be more efficient. 
 
 
 
@@ -87,6 +87,8 @@ As well as this i plan on increasing the amount of cores on the motor itself fro
 In this practical we refined our solidworks designs, and created an area on the motor for the encoder. I designed and cut out the encoder piece along with the other sections of the motor as it took a couple weeks to get all of the pieces complete due to the laser cutter being used by other courses for their deadlines. 
 
 ![Encoder cut out](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171023_150711.jpg)
+
+(Above image is the same as a previous one as we had the parts cut out all together due to having to wait for ours to be cut out)
 
 Due to time restrictions we were unable to get our enconder functioning. This was primarily due to how long it took to cut out each of the pieces in the laser cutter. Due to this we moved onto the stepper motor control and coding, as this was going to be a important part of the final arm project, along with the servos. 
 
