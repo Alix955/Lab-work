@@ -101,7 +101,9 @@ The half stepping mode is a combination of the full stepping and double stepping
 
 The microstepping mode allows for the most control of the motor possible, although with far less torque than the previous modes. The strength of the magnets are controlled using sine wave inputs, which allows the motor to move at roughly 1.8 degrees for each movement, allowing for a total of 200 steps per revolution. 
 
-#!image of micro
+![Microstep code](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Microstep1.PNG)
+
+![Microstep2 code](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Microstep2.PNG)
 
 #Practical 6
 This practical marks the start of the Robotic Arm mini-project that lasts until after the Christmas holidays. 
@@ -185,9 +187,7 @@ Finally once this was done the main arm part and the lower base were assembled t
 
 In the above image the arm was also plugged into a breadbord (from another project)  so that 5V could be easily supplied to both of the servos. With this setup the arm was able to support its self and move around easily. 
 
-!Image of stepper motor inside
-
-We released that the wires from the stepper motor caused the arm to tilt slightly, but due to time restrictions we were unable to alter our design. In the future we would have cut a gap into the side of the base to allow the wires to come out easily. As well as this we would have also lowered the height of the base, as the stepper motor needed to be supported so that it could actually reach the base of the arm to spin it.
+We realised that the wires from the stepper motor caused the arm to tilt slightly, but due to time restrictions we were unable to alter our design. In the future we would have cut a gap into the side of the base to allow the wires to come out easily. As well as this we would have also lowered the height of the base, as the stepper motor needed to be supported so that it could actually reach the base of the arm to spin it.
 
 Once the arm was assembled we began to design it onto rviz using urdf files. To do this we had to 'describe' each of the components of our arm, using measurements, and giving origin points for the joints to move on. This took some time to do as we did not realise that the 'origin' in the link section reffered to the origin point of the object itself, which was where the joints would be connected to. We originally assumed that this origin was where the part would be located on the rviz map in respect to the 0 0 0 origin point in the centre. 
 
@@ -218,7 +218,7 @@ The void cb code checks the "joint_states" within the JointState program that it
 
 The setup portion of the code is just initilising the nodes and subscriber functions, as well as attaching the two servo motors to their respective pins. 
 
-Once this code was programmed onto the arm, we were able to move the servos using the joint_states gui sliders. The movement of the servos wasnt as smooth as we were expecting, but the arms had plenty of torue to be able to lift and move themselves easily. 
+Once this code was programmed onto the arm, we were able to move the servos using the joint_states gui sliders. The movement of the servos wasnt as smooth as we were expecting, but the servos in the arms had plenty of torque to be able to lift and move the arms easily. 
 
 ![Arm Moving](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Videos/Arm_Moving.gif)
 
