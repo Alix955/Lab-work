@@ -33,6 +33,13 @@ It can be easily accessed and interacted with using the Linux command console, u
 
 
 
+
+
+
+
+
+
+
 # Practical session 2
 In this practical session we are beginning to create out basic motor. We are using a cork as the foundation of the motor, with copper wiring going around it for the coils. There is also a nail in either end to support the motor, and ensure it stays in its brackets. The brackets themselves are made out of large paperclips, as well as the brackets holding the magnets. I also used copper tape on the end of one side of the cork as a commutator, with a frayed multi core wire working as the brush to supply voltage. In total we had 116 coils around the motor, with 2 cores. 
 
@@ -65,12 +72,33 @@ As well as this i plan on increasing the amount of cores on the motor itself fro
 
 ![Built motor](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171215_094903.jpg)
 
+
+
+
+
+
+
+
+
+
+
+
 # Practical 3
 In this practical we refined our solidworks designs, and created an area on the motor for the encoder. I designed and cut out the encoder piece along with the other sections of the motor as it took a couple weeks to get all of the pieces complete due to the laser cutter being used by other courses for their deadlines. 
 
 ![Encoder cut out](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171023_150711.jpg)
 
 Due to time restrictions we were unable to get our enconder functioning. This was primarily due to how long it took to cut out each of the pieces in the laser cutter. Due to this we moved onto the stepper motor control and coding, as this was going to be a important part of the final arm project, along with the servos. 
+
+
+
+
+
+
+
+
+
+
 
 
 # Practical 5
@@ -104,6 +132,17 @@ The microstepping mode allows for the most control of the motor possible, althou
 ![Microstep code](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Microstep1.PNG)
 
 ![Microstep2 code](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Microstep2.PNG)
+
+
+
+
+
+
+
+
+
+
+
 
 # Practical 6
 This practical marks the start of the Robotic Arm mini-project that lasts until after the Christmas holidays. 
