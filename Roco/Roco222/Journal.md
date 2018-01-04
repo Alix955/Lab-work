@@ -43,11 +43,11 @@ In this practical session we are beginning to create out basic motor. We are usi
 ![Coils around motor](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171005_122520.jpg)
 
 
-Overall the motor did not work very well, this was largely due to there only being two coils. THis meant that there were large gaps between the coils, resulting in the motor struggling to keep its momentum going. As well as this the motor could not really start by itself, it needed something external, such as me starting the turning motion by hand. 
+Overall the motor did not work very well, this was largely due to there only being two coils. This meant that there were large gaps between the coils, resulting in the motor struggling to keep its momentum going. As well as this the motor could not really start by itself, it needed something external, such as me starting the turning motion by hand. 
 
 ![Assembled motor](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171011_134358.jpg)
 
-To improve my motor i am planning to completely redesign it using Solidworks. The designs for each piece can be seen below. I am going to have a bracket on either side of the motor to hold it up, as well as an upside down U shape bracket for the magnets. The magnets will be split into four to have two pulling and two pushing, instead of just having one pulling and one pushing.
+To improve the motor i am planning to completely redesign it using Solidworks. The designs for each piece can be seen below. There will be e a bracket on either side of the motor to hold it up, as well as an upside down U shape bracket for the magnets. The magnets will be split into four to have two pulling and two pushing, instead of just having one pulling and one pushing.
 
 ![Solidworks design ready to be cut](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171019_120219.jpg)
 
@@ -65,7 +65,7 @@ As well as this i plan on increasing the amount of cores on the motor itself fro
 
 ![Built motor](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171215_094903.jpg)
 
-#Practical 3
+# Practical 3
 In this practical we refined our solidworks designs, and created an area on the motor for the encoder. I designed and cut out the encoder piece along with the other sections of the motor as it took a couple weeks to get all of the pieces complete due to the laser cutter being used by other courses for their deadlines. 
 
 ![Encoder cut out](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171023_150711.jpg)
@@ -73,7 +73,7 @@ In this practical we refined our solidworks designs, and created an area on the 
 Due to time restrictions we were unable to get our enconder functioning. This was primarily due to how long it took to cut out each of the pieces in the laser cutter. Due to this we moved onto the stepper motor control and coding, as this was going to be a important part of the final arm project, along with the servos. 
 
 
-#Practical 5
+# Practical 5
 In this practical we learned the basics of controlling stepper motors.
 
 We had to wire up the stepper motor to the ardunio board using a motor shield, which had special pins for the motor wires to go into and be screwed down. It was important that the wires were set up the correct way around, otherwise the motor would turn the opposite way expected, or not function at all. As well as this the yellow wires of the stepper motor were left loose as we were using the motor as a bipolar motor instead of a unipolar motor. 
@@ -105,7 +105,7 @@ The microstepping mode allows for the most control of the motor possible, althou
 
 ![Microstep2 code](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Microstep2.PNG)
 
-#Practical 6
+# Practical 6
 This practical marks the start of the Robotic Arm mini-project that lasts until after the Christmas holidays. 
 
 For this project we are going to be using micro servos instead of the previous stepper motor for the joints of the arm, although a stepper motor can still be used. 
