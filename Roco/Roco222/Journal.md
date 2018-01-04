@@ -43,20 +43,20 @@ It can be easily accessed and interacted with using the Linux command console, u
 # Practical session 2
 In this practical session we are beginning to create out basic motor. We are using a cork as the foundation of the motor, with copper wiring going around it for the coils. There is also a nail in either end to support the motor, and ensure it stays in its brackets. The brackets themselves are made out of large paperclips, as well as the brackets holding the magnets. I also used copper tape on the end of one side of the cork as a commutator, with a frayed multi core wire working as the brush to supply voltage. In total we had 116 coils around the motor, with 2 cores. 
 
-![Given parts](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171005_113211.jpg)
+![Given parts](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171005_113211.jpg)
 
-![Stand assembled](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171005_120906.jpg)
+![Stand assembled](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171005_120906.jpg)
 
-![Coils around motor](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171005_122520.jpg)
+![Coils around motor](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171005_122520.jpg)
 
 
 Overall the motor did not work very well, this was largely due to there only being two coils. This meant that there were large gaps between the coils, resulting in the motor struggling to keep its momentum going. As well as this the motor could not really start by itself, it needed something external, such as me starting the turning motion by hand. 
 
-![Assembled motor](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171011_134358.jpg)
+![Assembled motor](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171011_134358.jpg)
 
 To improve the motor i am planning to completely redesign it using Solidworks. The designs for each piece can be seen below. There will be e a bracket on either side of the motor to hold it up, as well as an upside down U shape bracket for the magnets. The magnets will be split into four to have two pulling and two pushing, instead of just having one pulling and one pushing.
 
-![Solidworks design ready to be cut](https://github.com/Alix955/Lab-work/tree/master/Roco/Roco222/Images/IMG_20171019_120219.jpg)
+![Solidworks design ready to be cut](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171019_120219.jpg)
 
 ![Cut out motor pieces](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171023_150711.jpg)
 
