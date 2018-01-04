@@ -1,9 +1,9 @@
-##Note
+## Note
 For all of these practical sessions i worked together with Samuel Page.
 
 # Practical Session 1
 
-##Linux commands
+## Linux commands
 cat - Retrieves files and displays information about them.
 mv - Move file
 rm - Remove file
