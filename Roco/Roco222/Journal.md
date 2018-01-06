@@ -220,7 +220,8 @@ The next piece we assembled was the actual arm itself, which would be attached t
 
 We had some difficulty attaching the lower half of the arm to the base, due to the circular shape making the elastic bands roll off the sides. In order to counter this we cut some slight grooves into the circular part for the bands to be wrapped tightly around.
 
-!Image of bands holding onto the lower half of arm
+![Lower arm](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20180106_181401.jpg)
+![Lower arm2](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20180106_181401.jpg)
 
 Finally once this was done the main arm part and the lower base were assembled together to create a full arm. The stepper motor was also placed into the base of the arm. 
 
