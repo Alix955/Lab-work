@@ -386,8 +386,6 @@ Once we were happy with the designs and measurements of the pieces, we began to 
 
 ![Arm support](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171123_123053.jpg)
 
-!more Solidworks images
-
 
 
 Once the Solidworks designs were complete, they were converted into STL format so that the 3D printer could read the print the files. 
