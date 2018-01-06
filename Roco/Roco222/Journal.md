@@ -1,5 +1,5 @@
 ## Note
-For all of these practical sessions i worked together with Samuel Page.
+For all of these practical sessions I worked together with Samuel Page.
 
 # Practical Session 1
 
