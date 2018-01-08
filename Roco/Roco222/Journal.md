@@ -110,7 +110,7 @@ Overall the motor did not work very well, this was largely due to there only bei
 
 
 
-To improve the motor i am planning to completely redesign it using Solidworks. The designs for each piece can be seen below. There will be e a bracket on either side of the motor to hold it up, as well as an upside down U shape bracket for the magnets. The magnets will be split into four to have two pulling and two pushing, instead of just having one pulling and one pushing.
+To improve the motor i am planning to completely redesign it using Solidworks. The designs for each piece can be seen below. There will be a bracket on either side of the motor to hold it up, as well as an upside down U shape bracket for the magnets. The magnets will be split into four to have two pulling and two pushing, instead of just having one pulling and one pushing.
 
 
 
@@ -380,11 +380,29 @@ Most of the pieces fit well, and were good sizes compared to the servo motors. O
 
 
 
-Once we were happy with the designs and measurements of the pieces, we began to design them in Solidworks. Each piece was designed individually, with some adjustments made to compensate for the tolerances of the 3D printer. Some of the larger pieces had to be split up into smaller sections due to restrictions with the printers, such as not being able to print lips onto pieces without some kind of support on them. We decided to just separate the pieces instead of adding supports, as there would be a lesser chance of damaging the final product when removing the supports. 
-
-
+Once we were happy with the designs and measurements of the pieces, we began to design them in Solidworks. Each piece was designed individually, with some adjustments made to compensate for the tolerances of the 3D printer.
 
 ![Arm support](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171123_123053.jpg)
+
+Some of the larger pieces had to be split up into smaller sections due to restrictions with the printers, such as not being able to print lips onto pieces without some kind of support on them. We decided to just separate the pieces instead of adding supports, as there would be a lesser chance of damaging the final product when removing the supports. 
+
+![Bottom](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/LowerBase.PNG)
+
+![Middle](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/MiddleBase.PNG)
+
+![Middle2](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/MiddleBase2.PNG)
+
+![Upper1](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/UpperBase.PNG)
+
+![Upper2](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/UpperBase2x2.PNG)
+
+![Arm1](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Arm1.PNG)
+
+![Arm2](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/Arm2.PNG)
+
+
+
+
 
 
 
