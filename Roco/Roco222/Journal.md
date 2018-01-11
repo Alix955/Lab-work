@@ -101,8 +101,7 @@ In this practical session we are beginning to create out basic motor. We are usi
 
 
 
-
-Overall the motor did not work very well, this was largely due to there only being two coils. This meant that there were large gaps between the coils, resulting in the motor struggling to keep its momentum going. As well as this the motor could not really start by itself, it needed something external, such as me starting the turning motion by hand. 
+Overall the motor did not work very well, this was largely due to there only being one coil. This meant that there were large gaps that were not covered by any coils, resulting in the motor struggling to keep its momentum going. This motor had 115 wire wrappings for the coil. We chose this number because we only needed to create one coil on the motor, so we did not need to leave any room to add other coils. If we were to add more coils, we would reduce the amount of wire wrappings significantly to ensure that the pile on the ends do not build up to tthe point where they may start coming off. As well as this the motor could not really start by itself, it needed something external, such as me starting the turning motion by hand. 
 
 
 
@@ -110,7 +109,7 @@ Overall the motor did not work very well, this was largely due to there only bei
 
 
 
-To improve the motor i am planning to completely redesign it using Solidworks. The designs for each piece can be seen below. There will be a bracket on either side of the motor to hold it up, as well as an upside down U shape bracket for the magnets. The magnets will be split into four to have two pulling and two pushing, instead of just having one pulling and one pushing.
+To improve the motor i am planning to completely redesign it using Solidworks. The designs for each piece can be seen below. There will be a bracket on either side of the motor to hold it up, as well as an upside down U shape bracket for the magnets. The magnets will be split into four to have two on each side pulling / pushing the motor.
 
 
 
@@ -144,7 +143,7 @@ As well as this I plan on increasing the amount of cores on the motor itself fro
 
 ![Built motor](https://github.com/Alix955/Lab-work/blob/master/Roco/Roco222/Images/IMG_20171215_094903.jpg)
 
-
+For this motor we had 4 coils, with 65 copper wire wrappings around each one to increase the amount of surface area that was covered by the coils. This should make the motor a lot more stable, and ideally not need any more outside interference to start its rotation. We also opted to have it laser cut instead of 3D printed as the plastic that is used has a very low permiability. The wood we used is not siginificantly better when compared to iron or other metal cores, but we were unable to find any other materials we could use within a reasonable amount of time. 
 
 Overall our motor functioned well, although if we were to design it again we would swap out the wooden brackets for a more secure plastic one, as there was a lot of friction caused by the brackets holding the core of the motor. We would still keep the core as wood though, as it has a higher permeability than the plastic that is used in the 3D printers, allowing for our motor to be more efficient. 
 
